@@ -1,0 +1,21 @@
+{
+  "name": "TeamsWorkShop",
+  "version": "1.0.0",
+  "description": "Creating a Bot",
+  "main": "index.js",
+  "scripts": {
+    "build": "node_modules/.bin/nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akoushke/TeamsWorkShop"
+  },
+  "author": "Arash Koushkebaghi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "connect": "^3.6.5",
+    "express": "^4.15.5",
+    "serve-static": "^1.12.6"
+  }
+}
